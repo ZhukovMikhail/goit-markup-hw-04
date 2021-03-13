@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --font-color: #212121;
   --project-card-gap: 30px;
+  --icons-color: #afb1b8;
 }
 h1,
 h2,
@@ -108,6 +109,7 @@ body {
 .footer-cont-link:hover,
 .footer-cont-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .cont-link {
   font-weight: 500;
@@ -118,8 +120,19 @@ body {
   margin-left: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
-  /*========Header End=========*/
+  display: flex;
+  align-items: center;
 }
+.cont-icon {
+  margin-right: 10px;
+}
+/*.cont-icon:hover,
+.cont-link:focus {
+  fill: var(--accent-color);
+}*/
+
+/*========Header End=========*/
+
 /*===========Section Hero==========*/
 .hero {
   padding-top: 200px;
@@ -282,13 +295,37 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  fill: var(--icons-color);
 }
 .social-links-list-links:hover,
 .social-links-list-links:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
 }
-/*=============== OUR Team END ==================/*
+/*=============== OUR Team END ==================*/
+/*=================Our Clients===================*/
+.clients-list {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.clients-list-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  fill: var(--icons-color);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-list-links:hover {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+/*================= Our Clients END ===================*/
+
 /*======= Footer ===========*/
 .footer {
   background: #2f303a;
@@ -323,15 +360,45 @@ body {
   font-style: normal;
 }
 
-/*======= Footer END ==========*/
+.footer-links-title {
+  font-style: var(--main-font);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer .social-links {
+  padding: 0px;
+}
+.footer-contacts {
+  margin-right: 70px;
+}
+.footer .social-links-list-links {
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+}
 
-/*============Portfolio main sec================*/
+.footer .social-links-list:not(:last-child) {
+  margin-right: 10px;
+}
+.footer .social-links-list-links:hover,
+.footer .social-links-list-links:focus {
+  background-color: var(--accent-color);
+}
+/*======= Footer END ==========*/
+/*============Portfolio main sec==========*/
+
 .main-pholio .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/*.container .main-pholio {
-}*/
+
 .main-buttons {
   display: flex;
   justify-content: center;
