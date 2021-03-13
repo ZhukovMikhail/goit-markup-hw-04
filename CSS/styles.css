@@ -25,6 +25,9 @@ li {
   text-decoration: none;
   display: block;
 }
+.link:focus {
+  outline: none;
+}
 .list {
   list-style: none;
 }
@@ -228,8 +231,7 @@ body {
   align-items: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  height: 120px;
 }
 /*============== Advanteges END=============*/
 
