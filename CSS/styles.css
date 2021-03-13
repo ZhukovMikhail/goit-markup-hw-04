@@ -332,7 +332,10 @@ body {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
-
+.clients-list-links:focus {
+  fill: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
 /*================= Our Clients END ===================*/
 
 /*======= Footer ===========*/
