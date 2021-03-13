@@ -180,11 +180,22 @@ body {
   cursor: pointer;
   border-style: hidden;
 }
+.hero-button:hover {
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
+}
+.hero-button:focus {
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
+}
 /*===========Section Hero END==========*/
 
 /*============== Advanteges =============*/
-/*.advanteges.section {
-  padding-bottom: 0px;*/
+
 .advanteges-item {
   padding-top: 1px;
 }
